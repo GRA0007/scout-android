@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@android:color/background_light" />
+    <item
+        android:gravity="center"
+        android:drawable="@drawable/scouts_australia_logo" />
+    <item
+        android:gravity="center_horizontal|bottom"
+        android:bottom="100dp"
+        android:drawable="@drawable/splash_title" />
+
+</layer-list>

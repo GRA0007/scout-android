@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingRight="?android:attr/expandableListPreferredItemPaddingLeft"
+    android:gravity="center_vertical">
+
+    <FrameLayout
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/award_scheme_list_group_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@color/joey" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/award_scheme_list_group_image_text"
+            android:layout_gravity="center"
+            android:textColor="#FFF"
+            android:textSize="20sp"/>
+    </FrameLayout>
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1">
+        <TextView
+            android:id="@+id/award_scheme_list_group_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/secondary_text_light" />
+        <TextView
+            android:id="@+id/award_scheme_list_group_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/tertiary_text_light" />
+    </LinearLayout>
+
+</LinearLayout>

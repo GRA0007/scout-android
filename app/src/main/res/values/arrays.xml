@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="award_scheme_categories">
+        <item>Joey Scouts</item>
+        <item>Cub Scouts</item>
+        <item>Scouts</item>
+        <item>Venturer Scouts</item>
+        <item>Rover Scouts</item>
+    </string-array>
+
+    <string-array name="defaultScreens">
+        <item>About Scouts</item>
+        <item>Award Scheme</item>
+        <item>Progress Tracker</item>
+    </string-array>
+
+    <string-array name="defaultScreenValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

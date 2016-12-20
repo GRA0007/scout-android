@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+        <ListPreference
+            android:title="Default screen"
+            android:defaultValue="1"
+            android:key="defaultScreen"
+            android:summary="%s"
+            android:entries="@array/defaultScreens"
+            android:entryValues="@array/defaultScreenValues"/>
+    </PreferenceCategory>
+    <!--<PreferenceCategory android:title="Custom Notifications">
+        <CheckBoxPreference
+            android:title="Enable custom notifications"
+            android:defaultValue="false"
+            android:summary="Allow the app to send reminder notifications"
+            android:key="customNotifications" />
+        <MultiSelectListPreference
+            android:title="Days of the week"
+            android:summary="Choose the days you would like to receive a notification"
+            android:key="notificationDays"
+            android:entries="@array/weekDays"
+            android:entryValues="@array/weekValues"
+            android:dependency="customNotifications"
+            android:defaultValue="@array/weekValues"/>
+        <EditTextPreference
+            android:title="Notification text"
+            android:key="notificationText"
+            android:defaultValue="@string/custom_notification_text"
+            android:summary="@string/custom_notification_text"
+            android:dependency="customNotifications"/>
+    </PreferenceCategory>-->
+    <PreferenceCategory android:title="Dev Options">
+        <Preference
+            android:title="Delete All Entries"
+            android:summary="Remove JSON's dating matches"
+            android:key="removeJSON"/>
+        <Preference
+            android:title="Trigger Intro"
+            android:key="startIntro"/>
+    </PreferenceCategory>
+</PreferenceScreen>
